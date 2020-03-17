@@ -59,4 +59,20 @@ html {
   position: relative;
 }
 
+.sec-ctn {
+  width: 90%;
+  margin: 0 auto;
 
+}
+
+.news-ctn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.news-img > img {
+    width: 270px;
+    height: 130px;
+}
