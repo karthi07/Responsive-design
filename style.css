@@ -18,30 +18,81 @@ html {
 
 .header1 { 
     background-color: black;
-    color: white;
-}
+    font-size: 13px;
+  }
 
 .header-div {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 
-.header-div  li {
+.header-div ul {
+  /* border: 1px solid white; */
+  padding: 0px 15px;
+  margin: 8px 0px;
+}
+
+.header-div li {
     display: inline;
+    padding-left: 9px;
+    list-style: none;
+}
+
+a {
+  color: rgb(148, 143, 143);
+  text-decoration: none;
+}
+
+.header-div #fst-item > a {
+  color: white;
+}
+
+.header-div a:hover {
+  color: white;
 }
 
 .header2 {
-  background: gray;
-  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdfdfd;
+  font-size: 14px;
+}
+
+.header2 ul {
+  padding: 16px 15px;
+  margin: 0px 0px;
 }
 
 .header2 li {
-    display: inline;
+  display: inline;
+  padding-left: 9px;
+  list-style: none;
+}
+
+.header2 a:hover {
+  color: black;
+}
+
+.search-icon {
+  width: 48px;
+  border-left: 1px solid rgb(201, 196, 196);
+  height: 48px;
+  background-image: url(images/search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
 }
 
 .header3 {
-    background-color: yellow;
+  background-color: #fedd39;
+  padding: 5px 24px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.header3 a {
+  color: black;
 }
 
 .art-ctn {
@@ -105,12 +156,45 @@ html {
   grid-gap: 20px;
 }
 
-.sec-art {
-  margin-top: 40px; /*for layout*/ 
-  height: 200px; /*for layout*/
-}
-
 .sec-img > img {
   width: 386px;
   height: 133px;
+}
+
+.latest-news-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  border: 1px solid black;
+}
+
+.news-2-ctn {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.news-2-img > img {
+    width: 270px;
+    height: 130px;
+}
+
+.footer {
+  margin-top: 60px;
+  background: gray;
+  color: whitesmoke;
+}
+
+.ft-ctn {
+  background: rgb(58, 48, 48);
+  text-align: center;
+  padding: 30px;
+}
+
+.ft-ctn-2 {
+  background: rgb(26, 25, 25);
+  text-align: center;
+  padding: 30px;
 }
