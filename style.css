@@ -1,0 +1,45 @@
+html {
+    width: 100%;
+    margin: auto;
+    height: 100%;
+  }
+  
+  * *:before *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body{
+    width:100%;
+    margin: 0;
+    padding: 0;
+  }
+
+.header1 { 
+    background-color: black;
+    color: white;
+}
+
+.header-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-div  li {
+    display: inline;
+}
+
+.header2 {
+  background: gray;
+  padding: 10px;
+}
+
+.header2 li {
+    display: inline;
+}
+
+.header3 {
+    background-color: yellow;
+}
