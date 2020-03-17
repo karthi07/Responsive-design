@@ -43,3 +43,20 @@ html {
 .header3 {
     background-color: yellow;
 }
+
+.art-ctn {
+  background: #cf8899;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  height: 200px; /*This is for layout*/ 
+}
+
+.art-1 {
+  background: blue;
+  grid-row: span 2;
+  position: relative;
+}
+
+
