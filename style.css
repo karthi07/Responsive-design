@@ -560,20 +560,65 @@ html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* width: 100%; */
-  border: 1px solid black;
+  color: #f42;
+}
+
+.latest-news-2 > h2 {
+  display: flex;
+  align-items: center;
+}
+
+.latest-news-2:hover {
+  color: black;
 }
 
 .news-2-ctn {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-gap: 20px;
+  grid-gap: 44px;
 }
 
 .news-2-img > img {
     width: 270px;
     height: 130px;
+}
+
+/* Latest deals */
+
+.news-2-img > img {
+  width: 270px;
+  height: 190px;
+}
+
+.news-2-text {
+padding-top: 10px;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+}
+
+.news-2-text > a {
+text-decoration: none;
+color: inherit;
+}
+
+.news-2-text > a:hover {
+color: #f42;
+text-decoration: underline;
+}
+
+.news-2-pr {
+  font-size: 15px;
+  color: rgb(119, 116, 116);
+  padding-right: 8px;
+  text-decoration: line-through;
+}
+
+.news-2-pr2 {
+  font-size: 17px;
+  color: rgb(56, 54, 54);
+  padding-right: 8px;
 }
 
 .footer {
@@ -586,6 +631,18 @@ html {
   background: rgb(58, 48, 48);
   text-align: center;
   padding: 30px;
+}
+
+.social-n i {
+  padding: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: rgb(75, 72, 72);
+  cursor: pointer;
+}
+
+.social-n > a {
+  color: white;
 }
 
 .ft-ctn-2 {
