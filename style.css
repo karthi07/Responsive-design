@@ -253,17 +253,59 @@ a {
   margin: 0 auto;
 
 }
+.latest-news {
+  font-size: 20px;
+  color: #f42;
+  margin-bottom: 30px;
+}
+
+.latest-news > h2 {
+  display: flex;
+  align-items: center;
+}
+
+.latest-news:hover {
+  color: black;
+}
 
 .news-ctn {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
   grid-gap: 20px;
+  margin-bottom: 30px;
 }
 
 .news-img > img {
     width: 270px;
     height: 130px;
+}
+
+.news-text {
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.news-text > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.news-text > a:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.news-by {
+  font-size: smaller;
+  color: rgb(201, 198, 198);
+  padding-right: 8px;
+}
+
+.news-by:hover {
+  color: gray;
 }
 
 .latest-fnd {
