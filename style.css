@@ -159,10 +159,11 @@ a {
 .art-other-text > span {
   padding-right: 15px;
 }
-.art-other-text > img {
-  height: 12px;
-  width: 12px;
+.cl-and-share {
+  height: 10px;
+  width: 10px;
 }
+
 .art-1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-copy-796x417.jpg);
   grid-row: span 2;
@@ -170,14 +171,81 @@ a {
   background-size: cover;
 }
 
+
 .art-2 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/GQ2-796x417.png);
   background-size: cover;
+  position: relative;
+}
+
+.art-2-div {
+  background: linear-gradient( to bottom, rgba(168, 166, 166, 0.7) 40%, rgba(168, 166, 166, 0.6) 30%);
+  height: 100%;
+}
+
+.art-2-ctn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.art-2-ctn > * {
+  padding: 0px;
+  margin: 0;
+}
+
+.art-2-ctn > p {
+  font-size: 28px;
+  font-weight: 900;
+  padding: 0;
+  line-height: 1em;
+}
+
+.art-2-ctn li {
+  display: inline;
+  list-style: none;
+  font-size: 12px;
 }
 
 .art-3 {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/GQ2-796x417.png);
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/brainstorm-1-796x417.png");
   background-size: cover;
+  position: relative;
+}
+
+.art-3-div {
+  background: linear-gradient( to bottom, rgba(168, 166, 166, 0.7) 40%, rgba(168, 166, 166, 0.6) 30%);
+  height: 100%;
+}
+
+.art-3-ctn {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+.art-3-ctn > * {
+  padding: 0px;
+  margin: 0;
+}
+
+.art-3-ctn > p {
+  font-size: 28px;
+  font-weight: 900;
+  padding: 0;
+  line-height: 1em;
+}
+
+.art-3-ctn li {
+  display: inline;
+  list-style: none;
+  font-size: 12px;
 }
 
 .sec-ctn {
