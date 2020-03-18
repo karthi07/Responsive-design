@@ -38,7 +38,8 @@ html {
     list-style: none;
 }
 
-a {
+.header-div > ul > li > a,
+.header2 > ul > li > a {
   color: rgb(148, 143, 143);
   text-decoration: none;
 }
@@ -309,13 +310,21 @@ a {
 }
 
 .latest-fnd {
-  background: gray;
   display: flex;
   justify-content: space-between;
+  color: red;
+  align-items: center;
+}
+
+.latest-fnd > h2 {
+  font-weight: 900;
 }
 
 .latest-fnd li {
-  display: inline; /*Fix the line*/
+  display: inline;
+  padding-right: 10px;
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .funding-ctn {
@@ -324,11 +333,119 @@ a {
   grid-gap: 20px;
 }
 
+.div-ctn-bck {
+  /* background-image: linear-gradient( to bottom, rgba(230, 101, 129, 0.85) 20%, rgba(223, 140, 202, 0.3) 20%, transparent );
+  margin: 0;
+  padding: 0; */
+}
+
 .funds {
   margin: 20px 0;
-  background: black;
-  height: 100px; /*For layout*/
 }
+
+.fund1 {
+  position: relative;
+}
+
+.fund-1 {
+  background: red;
+  color: white;
+  font-weight: bold;
+  padding: 1px;
+}
+
+.fund-1 > p {
+  margin-left: 90px;
+  padding: 1px 0;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+
+.fund-1 a {
+  color: white;
+  text-decoration: none;
+}
+
+.fund-2 a,
+.fund2 a,
+.fund2 a,
+.fund3 a,
+.fund4 a {
+  color: black;
+  text-decoration: none;
+}
+
+.fund-2 {
+  color: black;
+  font-size: 18px;
+  background: pink;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.fund-2 > p {
+  margin: 0 0 0 90px;
+  padding: 0;
+  font-weight: bold;
+}
+
+.fund-2 > span {
+  margin: 0 0 0 90px;
+  font-weight: 500;
+  font-size: 12px;
+  padding: 0;
+}
+
+.vxg1 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  top: 20px;
+  left: 10px;
+}
+
+.fund2 {
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  margin: 1px 0;
+}
+
+.fund2 > p {
+  margin: 0;
+}
+
+.tag-img,
+.portf-img {
+  width: 16px;
+  height: 16px;
+  margin: 0 8px;
+}
+
+.fund3 {
+  display: flex;
+  font-size: 13px;
+  align-items: flex-start;
+  margin-top: 5px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid red;
+}
+
+.fund3 > p {
+  margin: 0;
+  width: 180px;
+}
+
+.fund4 {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.fund4 span {
+  color: gray;
+}
+
+/* The second fund article */
 
 .sec-art-ctn {
   display: grid;
