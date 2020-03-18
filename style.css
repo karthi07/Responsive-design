@@ -643,10 +643,33 @@ text-decoration: underline;
 
 .social-n > a {
   color: white;
+  padding: 10px 8px;
+}
+
+.ft-links li {
+  display: inline;
+  padding-right: 7px;
+  font-size: small;
+  text-transform: uppercase;
 }
 
 .ft-ctn-2 {
   background: rgb(26, 25, 25);
   text-align: center;
+  font-size: 14px;
   padding: 30px;
+}
+
+.ft-ctn-2 > b {
+  color: #f42;
+}
+
+.tnw-logo {
+  height: 9px;
+  width: 38px;
+}
+
+.stack-logo {
+  height: 9px;
+  width: 65px;
 }
