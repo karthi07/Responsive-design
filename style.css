@@ -80,9 +80,9 @@ html {
 }
 
 .search-icon {
-  width: 48px;
+  width: 3rem;
   border-left: 1px solid rgb(201, 196, 196);
-  height: 48px;
+  height: 3rem;
   background-image: url(images/search.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -98,6 +98,7 @@ html {
 
 .header3 a {
   color: black;
+  cursor: pointer;
 }
 
 .art-ctn {
@@ -106,21 +107,23 @@ html {
   grid-template-columns: 2fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 10px;
-  height: 500px; /*This is for layout*/ 
+  height: 475px;
+  padding: 2px 3px; 
 }
 
 .top-cnt {
   position: relative;
   top: 0;
   left: 15px;
-  height: 200px;
+  height: 12rem;
   padding: 0;
 }
 
-.top-cnt > img {
-  height: 200px;
-  width: 300px;
-  margin-top: -50px;
+.top-cnt img {
+  width: 55%;
+  max-width: 400px;
+  height: 100%;
+  max-height: 124px;
 }
 
 .top-cnt > span {
@@ -130,7 +133,7 @@ html {
 }
 
 .art-other-text {
-  font-size: smaller;
+  font-size: 1vw;
 }
 
 .btm-cnt{
@@ -139,15 +142,20 @@ html {
   left: 20px;
 }
 
-.btm-cnt > h1 {
-  font-size: 56px;
-  font-weight: 1000;
+.btm-cnt h1 {
+  font-size: 4vw;
+  font-weight: bold;
   padding: 0;
   margin: 0;
 }
 
+.btm-cnt a {
+  color: white;
+  text-decoration: none;
+}
+
 .btm-cnt > h2 {
-  font-size: 26px;
+  font-size: 2vw;
   padding: 0;
   margin: 0;
 }
@@ -164,16 +172,19 @@ html {
 .art-other-text > span {
   padding-right: 15px;
 }
+
 .cl-and-share {
-  height: 10px;
-  width: 10px;
+  height: 1%;
+  width: 1%;
+  vertical-align: middle;
 }
 
 .art-1 {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/1-copy-796x417.jpg);
+  background-repeat: no-repeat;
   grid-row: span 2;
   position: relative;
-  background-size: cover;
+  background-size: 100% 100%;
 }
 
 
@@ -203,16 +214,16 @@ html {
 }
 
 .art-2-ctn > p {
-  font-size: 28px;
+  font-size: 2vw;
   font-weight: 900;
   padding: 0;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 .art-2-ctn li {
   display: inline;
   list-style: none;
-  font-size: 12px;
+  font-size: 1vw;
 }
 
 .art-3 {
@@ -241,16 +252,16 @@ html {
 }
 
 .art-3-ctn > p {
-  font-size: 28px;
+  font-size: 2vw;
   font-weight: 900;
   padding: 0;
-  line-height: 1em;
+  line-height: 1.1em;
 }
 
 .art-3-ctn li {
   display: inline;
   list-style: none;
-  font-size: 12px;
+  font-size: 1vw;
 }
 
 .sec-ctn {
