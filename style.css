@@ -458,6 +458,104 @@ html {
   height: 133px;
 }
 
+.sec-art > h2 {
+  color: #f42;
+  font-weight: 1000;
+}
+
+.sec1-img {
+  width: 100%;
+  height: 276px;
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-Transcribe-368x276.png);
+  background-repeat: no-repeat;
+}
+
+.sec-img-div {
+  background: linear-gradient(to bottom, rgba(0,0,0,.1), rgba(0,0,0,1));
+  position: relative;
+  height: 100%;
+}
+
+.sec-img-cnt {
+  color: white;
+  position: absolute;
+  bottom: 0;
+  padding: 8px;
+}
+
+.sec-img-cnt > h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.sec-img-cnt > h2 {
+  font-size: 20px;
+}
+
+.sec-img-cnt > span {
+  font-size: 14px;
+  color: gray;
+}
+.sec-img-cnt > * {
+  margin:5px;
+}
+
+.sec-text-title {
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+
+}
+
+.sec-text-title-text {
+  width: 60%;
+  color: #f42;
+  align-self: flex-start;
+  padding: 8px;
+}
+
+.sec-text-title-text > * {
+  margin: 0;
+}
+
+.sec-text-title-img {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.sec-text-img{
+  height: 96px;
+  width: 96px;
+  margin: 0;
+  padding: 0;
+}
+
+.sec-text-title-text {
+  display: inline;
+}
+
+.sec-text-ul {
+  padding-left: 20px;
+  color: #f42;
+}
+
+.sec-text-li {
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.sec-text-li > a {
+  color: gray;
+  text-decoration: none;
+}
+
+.sec-text-li > a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
 .latest-news-2 {
   display: flex;
   justify-content: space-between;
