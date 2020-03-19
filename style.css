@@ -358,7 +358,7 @@ html {
   .top-cnt {
     display: none;
   }
-  
+
   .btm-cnt h1 {
     font-size: 40px;
   }
@@ -627,6 +627,15 @@ html {
     grid-gap: 20px;
   }
 
+  .latest-fnd {
+    flex-direction: column;
+    align-items: flex-start;
+
+  }
+
+  .latest-fnd ul {
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -636,7 +645,16 @@ html {
     grid-template-columns: 1fr;
     grid-gap: 20px;
   }
-
+  
+  .latest-fnd li {
+    display: block;
+    padding: 5px 0;
+  }
+  
+  
+  .latest-fnd .br-line {
+    display: none;
+  }
 }
 
 /* The second fund article */
@@ -666,34 +684,42 @@ html {
 
 .sec1-img {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-Transcribe-368x276.png);
+  background-size: cover;
 }
 
 .sec2-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Apples-new-MacBook-Air-header-image-368x276.png");
+  background-size: cover;
 }
 
 .sec3-img {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-368x276.jpg);
+  background-size: cover;
 }
 
 .sec4-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+  background-size: cover;
 }
 
 .sec5-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
+  background-size: cover;
 }
 
 .sec6-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-368x276.jpg");
+  background-size: cover;
 }
 
 .sec7-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
+  background-size: cover;
 }
 
 .sec8-img {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Support-Group-Featured-368x276.jpg");
+  background-size: cover;
 }
 
 .sec-img-div {
@@ -748,7 +774,7 @@ html {
 .sec-text-title-img {
   display: inline;
   margin: 0;
-  padding: 0;
+  padding: 2px 0px;
 }
 
 .sec-text-img{
@@ -781,6 +807,23 @@ html {
 .sec-text-li > a:hover {
   color: black;
   text-decoration: underline;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .sec-art-ctn {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+}
+
+@media screen and (max-width: 768px) {
+
+  .sec-art-ctn {
+    grid-template-columns: 1fr;
+  }
+  
 }
 
 .latest-news-2 {
