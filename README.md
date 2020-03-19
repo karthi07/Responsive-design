@@ -10,7 +10,7 @@ Clone of the homepage on thenextweb.com
 
 ## Built With
 
-- Html5,
+- Html5
 - CSS3
 
 ## Live Demo
