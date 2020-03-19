@@ -472,11 +472,42 @@ html {
   font-weight: 1000;
 }
 
-.sec1-img {
+.sec-img {
   width: 100%;
   height: 276px;
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-Transcribe-368x276.png);
   background-repeat: no-repeat;
+}
+
+.sec1-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-Transcribe-368x276.png);
+}
+
+.sec2-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Apples-new-MacBook-Air-header-image-368x276.png");
+}
+
+.sec3-img {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-368x276.jpg);
+}
+
+.sec4-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg");
+}
+
+.sec5-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920-368x276.jpg");
+}
+
+.sec6-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-368x276.jpg");
+}
+
+.sec7-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced-368x276.png");
+}
+
+.sec8-img {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Support-Group-Featured-368x276.jpg");
 }
 
 .sec-img-div {
@@ -510,7 +541,7 @@ html {
 }
 
 .sec-text-title {
-  background-color: pink;
+  background-color: rgba(255,68,34,.06);;
   display: flex;
   justify-content: space-between;
   padding-bottom: 0;
@@ -533,6 +564,7 @@ html {
   margin: 0;
   padding: 0;
 }
+
 .sec-text-img{
   height: 96px;
   width: 96px;
