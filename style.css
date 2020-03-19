@@ -122,7 +122,7 @@ body {
 }
 
 .logo-a {
-  background-color: linear-gradient(to bottom right, #c09, #f42 85%);
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
 }
 
 .header2-mini {
@@ -918,6 +918,12 @@ body {
 .ft-ctn-2 > p {
   display: inline;
   font-size: 12px;
+}
+
+.ft-ctn-2 a {
+  color: white;
+  text-decoration: none;
+  display: inline;
 }
 
 @media screen and (max-width: 768px) {
