@@ -293,8 +293,10 @@ html {
 }
 
 .news-img > img {
-    width: 270px;
-    height: 130px;
+    width: 100%;
+    max-width: 287px;
+    height: 100%;
+    max-height: 135px;
 }
 
 .news-text {
