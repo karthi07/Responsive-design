@@ -15,7 +15,7 @@ Clone of the homepage on thenextweb.com
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/abrormukimov/apple-page/15b9f488b1b234ffaa348be62a368104e6bfe3b8/index.html)
+[Live Demo Link](https://rawcdn.githack.com/karthi07/Responsive-design/b1521893922629bb5eda283b8cd75689cf7c0877/index.html)
 
 ## Getting Started
 
