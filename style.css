@@ -455,6 +455,39 @@ html {
   color: gray;
 }
 
+
+@media screen and (max-width: 1024px) {
+
+  .news-ctn {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+}
+
+@media screen and (max-width: 765px) {
+
+  .news-ctn {
+    grid-template-columns: 1fr;
+  }
+
+  .news-img > img {
+    width: 75px;
+    height: 75px;
+  }
+
+  .news {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .news-text {
+    padding-left: 10px;
+    padding-top: 0;
+    font-size: 12px;
+  }
+
+}
+
 .latest-fnd {
   display: flex;
   justify-content: space-between;
@@ -583,6 +616,27 @@ html {
 
 .fund4 span {
   color: gray;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .funding-ctn {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .funding-ctn {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+  }
+
 }
 
 /* The second fund article */
