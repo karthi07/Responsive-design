@@ -25,6 +25,13 @@ html {
     font-size: 13px;
   }
 
+@media screen and (max-width: 800px) {
+  .header1 { 
+    display: none;
+  }
+}
+  
+
 .header-div {
     display: flex;
     justify-content: space-between;
@@ -81,13 +88,67 @@ html {
 
 .search-icon {
   width: 3rem;
-  border-left: 1px solid rgb(201, 196, 196);
+  border-left: 0.5px solid rgb(201, 196, 196);
   height: 3rem;
   background-image: url(images/search.png);
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
 }
+.menu-icon {
+  width: 3rem;
+  border-left: 0.5px solid rgb(201, 196, 196);
+  height: 3rem;
+  background-image: url(images/menu.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.menu-logo {
+  width: 3rem;
+  border-left: 1px solid rgb(201, 196, 196);
+  height: 3rem;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  padding: 2px 20px;
+}
+
+.logo-a {
+  background-color: #f42;
+  background: linear-gradient(to bottom right,#c09,#f42 85%);
+}
+
+.header2-mini{
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  background: #fdfdfd;
+  font-size: 14px;
+}
+
+.right-icons{
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+
+  .header2 > ul {
+    display: none;
+  }
+  
+  .header2 {
+    display: none;
+  }
+
+  .header2-mini {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  }
 
 .header3 {
   background-color: #fedd39;
@@ -101,6 +162,19 @@ html {
   cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+
+  .header3 {
+    text-align: center;
+    padding: 22px 12px;
+    font-size: smaller;
+  }
+
+  .header3 a {
+    padding: 22px 12px;
+    text-decoration: none;
+  }
+}
 .art-ctn {
   color: white;
   display: grid;
@@ -444,7 +518,7 @@ html {
 
 .fund3 > p {
   margin: 0;
-  width: 180px;
+  width: 100%;
 }
 
 .fund4 {
@@ -465,7 +539,8 @@ html {
 }
 
 .sec-img > img {
-  width: 386px;
+  width: 100%;
+  max-width: 386px;
   height: 133px;
 }
 
@@ -622,16 +697,13 @@ html {
   grid-gap: 44px;
 }
 
-.news-2-img > img {
-    width: 270px;
-    height: 130px;
-}
-
 /* Latest deals */
 
 .news-2-img > img {
-  width: 270px;
-  height: 190px;
+  width: 100%;
+  max-width: 270px;
+  height: 100%;
+  max-height: 190px;
 }
 
 .news-2-text {
