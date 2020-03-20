@@ -15,7 +15,7 @@ Clone of the homepage on thenextweb.com
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/karthi07/Responsive-design/a824292aa5ae482834fe6e7a80ee90e0e4d28e82/index.html)
+[Live Demo Link](https://karthi07.github.io/Responsive-design/)
 
 ## Getting Started
 
