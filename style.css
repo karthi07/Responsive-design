@@ -99,18 +99,15 @@ body {
 }
 
 .menu-logo {
-  width: 3rem;
-  border-left: 1px solid rgb(201, 196, 196);
-  height: 3rem;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  cursor: pointer;
-  padding: 2px 20px;
+  height: 16px;
+  background: linear-gradient(to bottom right, #c09, #f42 85%);
+  background-size: cover;
+  padding: 16px 20px;
 }
 
-.logo-a {
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
+.menu-logo > img {
+  width: 66px;
+  height: 16px;
 }
 
 .header2-mini {
@@ -579,6 +576,10 @@ body {
   display: inline;
 }
 
+.sec-text-title-text > h4 {
+  font-size: 14px;
+}
+
 .sec-text-title-text > * {
   margin: 0;
 }
@@ -701,11 +702,18 @@ body {
   text-transform: uppercase;
 }
 
+.footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .ft-ctn-2 {
   background: rgb(26, 25, 25);
   text-align: center;
   font-size: 14px;
   padding: 30px;
+  color: white;
+  text-decoration: none;
 }
 
 .ft-ctn-2 > b {
@@ -725,12 +733,6 @@ body {
 .ft-ctn-2 > p {
   display: inline;
   font-size: 12px;
-}
-
-.ft-ctn-2 a {
-  color: white;
-  text-decoration: none;
-  display: inline;
 }
 
 .header-div > ul > li > a,
@@ -787,6 +789,10 @@ body {
     grid-gap: 20px;
   }
 
+  .funding-ctn > :nth-child(4) {
+    display: none;
+  }
+
   .latest-fnd {
     flex-direction: column;
     align-items: flex-start;
@@ -805,8 +811,6 @@ body {
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
   }
-
-/* add for 1024 */
 }
 
 @media screen and (max-width: 768px) {
@@ -822,6 +826,7 @@ body {
     display: flex;
     justify-content: space-between;
   }
+
   .header3 {
     text-align: center;
     padding: 22px 12px;
@@ -884,9 +889,14 @@ body {
     grid-gap: 20px;
   }
 
+  .latest-fnd > h2 {
+    margin-bottom: 0;
+  }
+
   .latest-fnd li {
     display: block;
     padding: 5px 0;
+    font-size: 14px;
   }
 
   .latest-fnd .br-line {
@@ -931,6 +941,4 @@ body {
     padding-left: 0;
     padding-right: 2px;
   }
-
-/* add here for 768px*/  
 }
