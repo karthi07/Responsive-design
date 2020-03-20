@@ -19,6 +19,12 @@ Clone of the homepage on thenextweb.com
 
 ## Getting Started
 
+  Project give way to people who are willing to see how to set a renponsive design to a website. The header helps learners to have multiple navbars and to use them properly in terms of placing and giving layout. The entire article elements were used with flexbox and grid layout to give responsiveness. Also, media queries are there to see the page on different devices, including tablets and smartphones.
+
+  The reason behind this project is to have further understanding in responsive design and it is only for educational purposes. Anyone who thinks about using it for their own learning is welcomed. We appreciate everyone who is interested in this project.
+
+  We are both microverse students and while implementing this project, we had much understanding in responsive websites. Below, you are given instructions how to use them on your own machines.
+
 **This is how you may setup this project locally.**
 
 
